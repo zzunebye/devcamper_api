@@ -1,5 +1,5 @@
 // putting a fx inside of a fx
-const advancedResult = (model, populate) => async (req, res, next) => {
+const advancedResults = (model, populate) => async (req, res, next) => {
   let query;
 
   // Copy req.query
@@ -77,4 +77,4 @@ const advancedResult = (model, populate) => async (req, res, next) => {
   next();
 }
 
-module.exports = advancedResult;
+module.exports = advancedResults;
